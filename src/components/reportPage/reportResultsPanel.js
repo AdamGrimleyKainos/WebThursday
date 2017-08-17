@@ -40,18 +40,19 @@ class ResultsPanel extends React.Component {
                <h4>Generate Department Report</h4>
                <br/>
                  <div className="row">
-               <table className="table table-striped table-hover">
+               <table className="table table-striped table-hover tableytable">
                  <thead>
                    <tr>
-                     <th>fname #</th>
+                     <th>fname</th>
                      <th>lname Name</th>
-                     <th>Plays(All Time)</th>
-                     <th>fname #</th>
-                     <th>Track Name</th>
-                     <th>Plays(All Time)</th>
-                     <th>fname #</th>
-                     <th>Track Name</th>
-                     <th>Plays(All Time)</th>
+                     <th>house_number</th>
+                     <th>street</th>
+                     <th>town</th>
+                     <th>postcode</th>
+                     <th>nin</th>
+                     <th>bank_acc_info_id</th>
+                     <th>start_salary</th>
+                     <th>dept_id</th>
                    </tr>
                  </thead>
                  {results}

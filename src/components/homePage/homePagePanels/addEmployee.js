@@ -39,7 +39,7 @@ class AddEmployeePanel extends React.Component {
                 bank_acc_info_id: "",
                 start_salary: "",
                 dept_id: ""
-            },
+            }
         }
         this.onSubmit = this.onSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
