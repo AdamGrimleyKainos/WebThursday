@@ -3,6 +3,7 @@ import employeeApi from '../../api/employeeApi';
 import Jumbotron from './jumbotron';
 import Header from '../common/header';
 import Footer from '../common/footer';
+import EditEmployeesPanel from './homePagePanels/editEmployees';
 
 class Home extends React.Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class Home extends React.Component {
     };
 
     employeeApi.getAllEmployees((employees) => {
-      this.setState(employees: employees);
+      //this.setState(employees: employees);
     });
   }
 
@@ -22,6 +23,7 @@ class Home extends React.Component {
       <div>
         <Header />
         <Jumbotron />
+        <EditEmployeesPanel />
         <Footer />
       </div>
     );
