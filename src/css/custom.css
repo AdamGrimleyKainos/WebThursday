@@ -17,3 +17,13 @@ footer {
   background-color: #f8f8f8;
   padding-bottom: 10px;
 }
+
+.navbar{
+  padding-left: 100px;
+  padding-right:100px;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
