@@ -14,7 +14,7 @@ class Jumbotron extends React.Component {
       <div className="container-full">
         <div className="jumbotron text-center" id="homeJumbotron">
            <h1>Doomsday Bunnies System</h1>
-           <p>whoop</p>
+           <p>yey.</p>
          </div>
        </div>
     );

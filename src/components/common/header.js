@@ -31,7 +31,7 @@ class Header extends React.Component {
                     <Link to="/">Home</Link>
                   </li>
                   <li className="nav">
-                    <Link to="/">Human Resources</Link>
+                    <Link to="reports">Reports</Link>
                   </li>
                   <li className="nav">
                     <Link to="/">Finance</Link>

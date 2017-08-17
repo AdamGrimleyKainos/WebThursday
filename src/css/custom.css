@@ -32,3 +32,20 @@ footer {
   height: 47px;
   border: black
 }
+
+.searchEmpButton {
+  position: relative;
+  bottom: 0;
+}
+
+.searchEmpPanel {
+  margin-bottom: 30px;
+}
+
+#bottomPanel {
+  margin-bottom: 100px;
+}
+
+.generateReportPanel {
+  margin-top: 20px;
+}
