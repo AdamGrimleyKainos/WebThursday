@@ -8,4 +8,5 @@ Corresponding web service must be running in order for web app to function corre
 * Install node
 * navigate to project directory in CLI
 * run "npm install"
+* run "npm start"
 * Open web browser navigate to localhost:3000
